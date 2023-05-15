@@ -24,13 +24,9 @@ jobs:
       - name: uruchamianie Pylint
         run: pylint app.py
 
-
-
   sprawdzanie_wersji_pythona:
     runs-on: ubuntu-latest
 
     steps:
       - name: Wyświetl_wersję_pythona
         run: python --version
-        
-
