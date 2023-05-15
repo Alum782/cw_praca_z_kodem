@@ -20,6 +20,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: konfiguracja_pythona
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.11'
       - name: instalacja_bibliotek
         run: |
           pip install flask
