@@ -42,4 +42,4 @@ jobs:
           pip install pylint
 
       - name: Run Pylint
-        run: pylint app.py
+        run: $(git ls-files '*.py')
