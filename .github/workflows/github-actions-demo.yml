@@ -1,4 +1,4 @@
-name: Workflow
+name: Testowanie_wersji_Pythona
 
 on:
   push:
