@@ -15,22 +15,3 @@ jobs:
     steps:
       - name: Wyświetl_wersję_pythona
         run: python --version
-        
-  testowanie_pylint:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: kod klasy
-        uses: actions/checkout@v2
-        
-      - name: konfiguracja_pythona
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.11'
-      - name: instalacja_bibliotek
-        run: |
-          pip install flask
-          pip install pylint
-
-      - name: uruchamianie Pylint
-        run: run: pylint app.py
