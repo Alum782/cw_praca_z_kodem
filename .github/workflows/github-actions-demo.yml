@@ -20,6 +20,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: kod klasy
+        uses: actions/checkout@v2
+        
       - name: konfiguracja_pythona
         uses: actions/setup-python@v2
         with:
@@ -31,4 +34,4 @@ jobs:
 
       - name: uruchamianie Pylint
         run: |
-          pylint $(git ls-files '*.py')
+          pylint $(github ls-files '*.py')
