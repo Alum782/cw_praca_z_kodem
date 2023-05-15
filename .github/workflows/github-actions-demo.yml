@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  python_version_check:
+  sprawdzanie_wersji_pythona:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,7 +24,7 @@ jobs:
       - name: Display Python version
         run: python --version
         
-  pylint_test:
+  testowanie_pylint:
     runs-on: ubuntu-latest
 
     steps:
