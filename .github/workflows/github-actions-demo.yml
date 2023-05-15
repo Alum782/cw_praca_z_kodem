@@ -1,4 +1,4 @@
-name: Sprawdzanie_wersji_Pythona
+name: Sprawdzanie_wersji_Pythona_i_testowanie_pylint
 
 on:
   push:
@@ -9,18 +9,11 @@ on:
       - main
 
 jobs:
-  sprawdzanie_wersji_pythona:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Wyświetl_wersję_pythona
-        run: python --version
-        
   testowanie_pylint:
     runs-on: ubuntu-latest
 
     steps:
-      - name: kod klasy
+      - name: v2
         uses: actions/checkout@v2
 
       - name: instalacja_bibliotek
@@ -30,3 +23,14 @@ jobs:
 
       - name: uruchamianie Pylint
         run: pylint app.py
+
+
+
+  sprawdzanie_wersji_pythona:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Wyświetl_wersję_pythona
+        run: python --version
+        
+
