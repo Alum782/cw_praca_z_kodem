@@ -13,33 +13,33 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: kod klasy
         uses: actions/checkout@v2
 
-      - name: Set up Python
+      - name: konfiguracja_pythona
         uses: actions/setup-python@v2
         with:
           python-version: '3.11'
 
-      - name: Display Python version
+      - name: Wyświetl_wersję_pythona
         run: python --version
         
   testowanie_pylint:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: kod klasy
         uses: actions/checkout@v2
 
-      - name: Set up Python
+      - name: konfiguracja_pythona
         uses: actions/setup-python@v2
         with:
           python-version: '3.11' 
 
-      - name: Install dependencies
+      - name: instalacja_bibliotek
         run: |
           pip install flask
           pip install pylint
 
-      - name: Run Pylint
+      - name: uruchamianie Pylint
         run: pylint app.py
