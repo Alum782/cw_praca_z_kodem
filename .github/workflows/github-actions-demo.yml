@@ -1,4 +1,4 @@
-name: Sprawdzanie_wersji_Pythona_i_testowanie_pylint
+name: Sprawdzanie_wersji_Pythona
 
 on:
   push:
