@@ -56,4 +56,4 @@
 
 9. Aby wyłączyć serwer Flask, przejdź do terminala, gdzie jest uruchomiony i naciśnij `Ctrl + C`.
 
-Plik README.md jest ważny w projekcie, ponieważ może zawierać informacje na temat funkcji, zastosowania, wymagań systemowych, struktury projektu, instrukcji dla programistów oraz wiele innych istotnych
+Plik README.md jest ważne w projekcie bo może zawierać informacje na temat funkcji, zastosowania, wymagań systemowych, struktury projektu, instrukcji dla programistów oraz wiele innych istotnych informacji.
