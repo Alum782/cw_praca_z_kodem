@@ -44,11 +44,11 @@
 
 7. Otwórz drugie okno terminala i wpisz polecenia:
 
-   - `curl http://127.0.0.1:5000/`
-   - 
-   - `curl -L http://127.0.0.1:5000/hello`
-   - 
-   - `curl http://127.0.0.1:5000/hello/<name>` - gdzie w miejsce `<name>` wpisz własne imię (bez tych znaków <>)
+   a) `curl http://127.0.0.1:5000/`
+   
+   b) `curl -L http://127.0.0.1:5000/hello`
+   
+   c) `curl http://127.0.0.1:5000/hello/<name>` - gdzie w miejsce `<name>` wpisz własne imię (bez tych znaków <>)
 
 8. (Opcjonalnie) Możesz otworzyć przeglądarkę i wpisać powyższe adresy bez polecenia curl, aby zobaczyć, jak wygląda strona.
 
