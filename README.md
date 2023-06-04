@@ -54,6 +54,6 @@
 
 8. (Opcjonalnie) Możesz otworzyć przeglądarkę i wpisać powyższe adresy bez polecenia curl, aby zobaczyć, jak wygląda strona.
 
-9. Aby wyłączyć serwer Flask, przejdź do terminala, gdzie jest uruchomiony, i naciśnij `Ctrl + C`.
+9. Aby wyłączyć serwer Flask, przejdź do terminala, gdzie jest uruchomiony i naciśnij `Ctrl + C`.
 
 Plik README.md jest ważny w projekcie, ponieważ może zawierać informacje na temat funkcji, zastosowania, wymagań systemowych, struktury projektu, instrukcji dla programistów oraz wiele innych istotnych
