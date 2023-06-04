@@ -11,7 +11,9 @@
    c) Wpisz polecenie: `git clone https://github.com/Alum782/cw_praca_z_kodem.git`
 
 2. Upewnij się, że masz zainstalowanego Pythona:
+
    Wpisz: `python --version`
+   
    Powinna pojawić się informacja o zainstalowanej wersji Pythona na twoim komputerze. Jeśli nie, musisz zainstalować Pythona.
 
 3. Zainstaluj wirtualne środowisko Pythona:
