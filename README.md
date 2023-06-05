@@ -48,7 +48,7 @@
    
    c) `make run`
 
-8. Otwórz drugie okno terminala i wpisz polecenia:
+8. Otwórz drugie okno terminala za pomocą skrótu klawiszowego `Ctrl + Shift + T` i wpisz polecenia:
 
    a) `curl http://127.0.0.1:5000/`
    
