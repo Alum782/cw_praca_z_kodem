@@ -6,7 +6,7 @@
 
    a) Otwórz terminal lub wiersz polecenia na swoim komputerze.
    
-   b) Przejdź do katalogu, w którym chcesz umieścić sklonowane repozytorium. Wpisz `cd ścieżka_do_katalogu`
+   b) Przejdź do katalogu, w którym chcesz umieścić sklonowane repozytorium. Wpisz: `cd ścieżka_do_katalogu`
    
    c) Wpisz polecenie: `git clone https://github.com/Alum782/cw_praca_z_kodem.git`
 
