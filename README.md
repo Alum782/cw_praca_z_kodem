@@ -31,12 +31,16 @@
    Wpisz: `pip3 install flask`
    
    Aby sprawdzić, czy Flask zainstalował się pomyślnie, wpisz: `flask --version`
+   
+5. Zainstaluj Curl:
 
-5. Przejdź do katalogu, w którym sklonowane jest repozytorium Git:
+   Wpisz: `apt-get install curl`
+
+6. Przejdź do katalogu, w którym sklonowane jest repozytorium Git:
 
    Wpisz: `cd ścieżka_do_katalogu`
 
-6. W terminalu wpisz po kolei polecenia:
+7. W terminalu wpisz po kolei polecenia:
 
    a) `make install`
    
@@ -44,7 +48,7 @@
    
    c) `make run`
 
-7. Otwórz drugie okno terminala i wpisz polecenia:
+8. Otwórz drugie okno terminala i wpisz polecenia:
 
    a) `curl http://127.0.0.1:5000/`
    
@@ -52,8 +56,8 @@
    
    c) `curl http://127.0.0.1:5000/hello/<name>` - gdzie w miejsce `<name>` wpisz własne imię (bez tych znaków <>)
 
-8. (Opcjonalnie) Możesz otworzyć przeglądarkę i wpisać powyższe adresy bez polecenia curl, aby zobaczyć, jak wygląda strona.
+9. (Opcjonalnie) Możesz otworzyć przeglądarkę i wpisać powyższe adresy bez polecenia curl, aby zobaczyć, jak wygląda strona.
 
-9. Aby wyłączyć serwer Flask, przejdź do terminala, gdzie jest uruchomiony i naciśnij `Ctrl + C`.
+10. Aby wyłączyć serwer Flask, przejdź do terminala, gdzie jest uruchomiony i naciśnij `Ctrl + C`.
 
 Plik README.md jest ważne w projekcie bo może zawierać informacje na temat funkcji, zastosowania, wymagań systemowych, struktury projektu, instrukcji dla programistów oraz wiele innych istotnych informacji.
